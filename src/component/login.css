@@ -1,0 +1,221 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  @media (min-width: 640px) {
+    .sm\:grid-cols-2 {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  
+  .h-screen {
+    height: 100vh;
+  }
+  
+  .w-full {
+    width: 100%;
+  }
+
+  .hidden {
+    display: none;
+  }
+  
+  @media (min-width: 640px) {
+    .sm\:block {
+      display: block;
+    }
+  }
+   
+  .w-full {
+    width: 100%;
+  }
+  
+  .h-full {
+    height: 100%;
+  }
+  
+  .object-cover {
+    object-fit: cover;
+  }
+  
+  .bg-gray-800 {
+    background-color: #2d2d2d; /* This hex color represents the Tailwind CSS gray-800 color */
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .flex-col {
+    flex-direction: column;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .max-w {
+    max-width: 400px;
+  }
+  
+  .w-full {
+    width: 100%;
+  }
+  
+  .mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .bg-grey-900 {
+    background-color: #1f1f1f; /* This hex color represents the Tailwind CSS grey-900 color */
+  }
+  
+  .p-8 {
+    padding: 2rem; /* Assuming 8 in Tailwind CSS equals 2rem */
+  }
+  
+  .px-8 {
+    padding-left: 2rem; /* Assuming 8 in Tailwind CSS equals 2rem */
+    padding-right: 2rem; /* Assuming 8 in Tailwind CSS equals 2rem */
+  }
+  
+  .rounded-lg {
+    border-radius: 0.5rem; /* Assuming Tailwind's rounded-lg applies a 0.5rem border-radius */
+  }
+  
+  .text-4xl {
+    font-size: 2.25rem; /* Assuming Tailwind's text-4xl is 2.25rem */
+  }
+  
+  .dark .text-white {
+    color: #fff; /* This hex color represents the Tailwind CSS white color */
+  }
+  
+  .font-bold {
+    font-weight: 700; /* Assuming Tailwind's font-bold is 700 */
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .flex-col {
+    flex-direction: column;
+  }
+  
+  .text-grey-400 {
+    color: #cbd5e0; /* This hex color represents the Tailwind CSS grey-400 color */
+  }
+  
+  .py-2 {
+    padding-top: 0.5rem; /* Assuming 2 in Tailwind CSS equals 0.5rem */
+    padding-bottom: 0.5rem; /* Assuming 2 in Tailwind CSS equals 0.5rem */
+  }
+  
+  .rounded-lg {
+    border-radius: 0.5rem; /* Assuming Tailwind's rounded-lg applies a 0.5rem border-radius */
+  }
+  
+  .bg-grey-700 {
+    background-color: #4a5568; /* This hex color represents the Tailwind CSS grey-700 color */
+  }
+  
+  .mt-2 {
+    margin-top: 0.5rem; /* Assuming 2 in Tailwind CSS equals 0.5rem */
+  }
+  
+  .p-2 {
+    padding: 0.5rem; /* Assuming 2 in Tailwind CSS equals 0.5rem */
+  }
+  
+  .focus\:border-blue-500:focus {
+    border-color: #2563eb; /* This hex color represents the Tailwind CSS blue-500 color */
+  }
+  
+  .focus\:bg-grey-800:focus {
+    background-color: #2d3748; /* This hex color represents the Tailwind CSS grey-800 color */
+  }
+  
+  .focus\:outline-none:focus {
+    outline: none;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .justify-between {
+    justify-content: space-between;
+  }
+  
+  .text-grey-400 {
+    color: #cbd5e0; /* This hex color represents the Tailwind CSS grey-400 color */
+  }
+  
+  .py-2 {
+    padding-top: 0.5rem; /* Assuming 2 in Tailwind CSS equals 0.5rem */
+    padding-bottom: 0.5rem; /* Assuming 2 in Tailwind CSS equals 0.5rem */
+  }
+  
+  .items-center{
+    align-items: center;
+  }
+
+  .mr-2{
+    margin-right: 1rem;
+  }
+
+
+  .w-full {
+    width: 100%;
+  }
+  
+  .my-5 {
+    margin-top: 1.25rem; /* Assuming 5 in Tailwind CSS equals 1.25rem */
+    margin-bottom: 1.25rem; /* Assuming 5 in Tailwind CSS equals 1.25rem */
+  }
+  
+  .py-2 {
+    padding-top: 0.5rem; /* Assuming 2 in Tailwind CSS equals 0.5rem */
+    padding-bottom: 0.5rem; /* Assuming 2 in Tailwind CSS equals 0.5rem */
+  }
+  
+  .bg-teal-500 {
+    background-color: #38a169; /* This hex color represents the Tailwind CSS teal-500 color */
+  }
+  
+  .shadow-lg {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    /* These shadow values are approximate equivalents to Tailwind's shadow-lg */
+  }
+  
+  .shadow-teal-500-50 {
+    /* This part may be challenging to replicate directly in plain CSS without using a preprocessor like Sass */
+    box-shadow: 0 0 0 1px rgba(56, 161, 105, 0.05), 0 2px 4px 0 rgba(56, 161, 105, 0.1), 0 1px 1.5px 0 rgba(56, 161, 105, 0.05);
+    /* The above values mimic a shadow effect similar to Tailwind's shadow-teal-500/50 */
+  }
+  
+  .hover\:shadow-teal-500-40:hover {
+    /* This part may be challenging to replicate directly in plain CSS without using a preprocessor like Sass */
+    box-shadow: 0 0 0 1px rgba(56, 161, 105, 0.05), 0 2px 4px 0 rgba(56, 161, 105, 0.08), 0 1px 1.5px 0 rgba(56, 161, 105, 0.04);
+    /* The above values mimic a shadow effect similar to Tailwind's hover:shadow-teal-500/40 */
+  }
+  
+  .text-white {
+    color: #fff;
+  }
+  
+  .font-semibold {
+    font-weight: 600; /* Assuming Tailwind's font-semibold is 600 */
+  }
+  
+  .rounded-lg {
+    border-radius: 0.5rem; /* Assuming Tailwind's rounded-lg applies a 0.5rem border-radius */
+  }
+  
